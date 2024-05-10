@@ -10,3 +10,6 @@ for char in s1:
         common_characters+=char
 
 print(common_characters)'''
+import sys
+for pth in sys.path:
+    print(pth)
